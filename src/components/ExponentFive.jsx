@@ -1,7 +1,7 @@
-const ExponentFive = ({ count }) => (
+const ExponentFive = ({ num }) => (
   <div className="exponent-counter-container">
-    <p className="exponent-label">{count}⁵</p>
-    <p className="exponent-result">{`${count} * ${count} * ${count} * ${count} * ${count}`} = <span className="total">{count**5}</span></p>
+    <p className="exponent-label">{num}⁵</p>
+    <p className="exponent-result">{`${num} * ${num} * ${num} * ${num} * ${num}`} = <span className="total">{num**5}</span></p>
   </div>
 );
 
